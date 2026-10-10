@@ -44,7 +44,7 @@ Department totals only; no per-person pay is shown. Employer cost is built from 
 
 - **Import:** any reasonable Excel, CSV or ODS layout; columns matched by name or alias, validated and reported before anything is saved.
 - **Multi-tenant isolation:** every table is protected by row-level security in PostgreSQL, so one company can never read another's rows.
-- **Access control:** roles (owner, HR specialist, payroll, training, summary viewer) with a per-endpoint permission matrix and mandatory two-factor sign-in.
+- **Access control:** roles (owner, HR specialist, payroll, training, summary viewer) with a per-endpoint permission matrix and two-factor sign-in (enforced for the corporate plan; optional otherwise).
 - **Audit trail:** every view of personal data is written to an audit log, which stores counts and types, never the data itself.
 - **Sensitive fields:** encrypted at rest.
 - **Small-group rule:** averages are hidden for groups of fewer than five people.
