@@ -54,7 +54,7 @@ The release process includes an automated test suite with hand-calculated expect
 
 ## Status
 
-In active development. Not yet generally available.
+In active use: currently being tested at a real company.
 
 ## Contact
 
