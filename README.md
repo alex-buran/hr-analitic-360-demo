@@ -52,6 +52,8 @@ Department totals only; no per-person pay is shown. Employer cost is built from 
 
 The release process includes an automated test suite with hand-calculated expectations, deliberate-break (mutation) checks, a staging environment with a real database and a from-scratch security review. An external penetration test is planned before the first customer.
 
+Development happens in a private repository: 180+ commits, 11 versioned releases with release notes, and automated tests and dependency checks (CI) that run on every change.
+
 ## Status
 
 In active use: currently being tested at a real company.
