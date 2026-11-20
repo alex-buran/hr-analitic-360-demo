@@ -2,7 +2,7 @@
 
 HR analytics and decision-support platform for Turkish HR teams. Upload the Excel or CSV files you already keep, and get a live dashboard, early-warning alerts, an action centre, workplace health and safety (İSG) tracking and payroll budget summaries, all computed from your own data. Where data is missing the product says so instead of showing a plausible-looking number.
 
-> **Showcase only.** This repository contains screenshots and a description, **no source code**. The product is proprietary and closed-source. Every screen below shows an **invented sample company** ("Örnek Sanayi A.Ş.", 195 employees); no real person, company or payroll data appears anywhere. The product interface is in Turkish.
+> **Showcase only.** This repository contains screenshots and a description, **no source code**. The product is proprietary and closed-source. Every screen below shows an **invented sample company** ("Örnek Sanayi A.Ş.", 195 employees); no real person, company or payroll data appears anywhere. The product interface is in Turkish and English; these screenshots show the Turkish version.
 
 **Related:** the product's marketing site is in the companion repository **[hr360-landing-demo](https://github.com/alex-buran/hr360-landing-demo)** ([live page](https://alex-buran.github.io/hr360-landing-demo/)).
 
@@ -49,10 +49,11 @@ Department totals only; no per-person pay is shown. Employer cost is built from 
 - **Sensitive fields:** encrypted at rest.
 - **Small-group rule:** averages are hidden for groups of fewer than five people.
 - **Stack:** Node.js and Express, Supabase (PostgreSQL, Auth), a Bootstrap and Alpine front end.
+- **Hosting:** its own server in the EU behind Cloudflare, reachable only through Cloudflare, with key-only server access.
 
-The release process includes an automated test suite with hand-calculated expectations, deliberate-break (mutation) checks, a staging environment with a real database and a from-scratch security review. An external penetration test is planned before the first customer.
+The release process includes an automated test suite with hand-calculated expectations, deliberate-break (mutation) checks, a separate staging database and a from-scratch security review. An external penetration test is planned before the first customer.
 
-Development happens in a private repository: 180+ commits, 11 versioned releases with release notes, and automated tests and dependency checks (CI) that run on every change.
+Development happens in a private repository: 190+ commits, 12 versioned releases with release notes, and automated tests and dependency checks (CI) that run on every change.
 
 ## Status
 
