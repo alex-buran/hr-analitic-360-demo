@@ -40,6 +40,14 @@ Department totals only; no per-person pay is shown. Employer cost is built from 
 
 ![Payroll and budget](screens/butce-icerik.webp)
 
+## Design system
+
+The product's design system in Figma: colour, spacing, radius and layout tokens as variables, light and dark themes, text and elevation styles, an icon set, components with variants and properties (buttons, inputs, badges, alerts, tables, navigation, charts), and prototyped key screens in both themes.
+
+**[Open the Figma file](https://www.figma.com/design/8wNhPIzoEpNifujZbsg7HI/HR360---product)** (view only)
+
+![Key screens in light and dark theme](screens/figma-design-system.webp)
+
 ## How it is built
 
 - **Import:** any reasonable Excel, CSV or ODS layout; columns matched by name or alias, validated and reported before anything is saved.
